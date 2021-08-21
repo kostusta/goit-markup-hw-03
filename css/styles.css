@@ -44,8 +44,8 @@ ul {
   padding-right: 15px;
   margin: 0 auto;
 
-  /* outline: 1px solid teal;
-  background-color: khaki; */
+  outline: 1px solid teal;
+  /* background-color: khaki; */
 }
 
 .page-logo {
@@ -135,6 +135,8 @@ ul {
 /* ---Hero Section--- */
 .page-hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .page-hero-title {
@@ -143,8 +145,14 @@ ul {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
 
   color: #ffffff;
+
+  display: block;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-hero-button {
@@ -158,6 +166,11 @@ ul {
 
   color: #ffffff;
   background-color: #2196f3;
+
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-hero-button:hover,
