@@ -44,8 +44,8 @@ ul {
   padding-right: 15px;
   margin: 0 auto;
 
-  outline: 1px solid teal;
-  background-color: khaki;
+  /* outline: 1px solid teal;
+  background-color: khaki; */
 }
 
 .page-logo {
@@ -224,6 +224,21 @@ ul {
 
 .page-logo .footer-logo {
   color: #ffffff;
+}
+
+.page-footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.page-footer-address {
+  display: block;
+  margin-top: 20px;
+}
+
+.page-footer-address-item + .page-footer-address-item {
+  display: block;
+  margin-top: 9px;
 }
 
 .page-footer-address-item-address {
