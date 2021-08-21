@@ -54,7 +54,7 @@ ul {
   padding-right: 15px;
   margin: 0 auto;
 
-  outline: 1px solid teal;
+  /* outline: 1px solid teal; */
   /* background-color: khaki; */
 }
 
@@ -193,6 +193,19 @@ ul {
 }
 
 /* ---Benefits Section--- */
+.benefits-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.benefits-section-list {
+  display: flex;
+}
+
+.benefits-section-item + .benefits-section-item {
+  margin-left: 30px;
+}
+
 .benefits-section-item-title {
   font-weight: 700;
   font-size: 14px;
@@ -207,6 +220,9 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  display: block;
+  margin-top: 10px;
 }
 
 /* ---Our work Section--- */
