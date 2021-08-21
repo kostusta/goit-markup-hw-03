@@ -4,6 +4,9 @@
   --main-navigation-item-color: #212121;
   --accent-color: #2196f3;
   --current-page-marker-color: #2196f3;
+
+  --section-padding-top: 94px;
+  --section-padding-bottom: 94px;
 }
 
 body {
@@ -55,7 +58,6 @@ ul {
   margin: 0 auto;
 
   /* outline: 1px solid teal; */
-  /* background-color: khaki; */
 }
 
 .page-logo {
@@ -194,8 +196,8 @@ ul {
 
 /* ---Benefits Section--- */
 .benefits-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: var(--section-padding-top);
+  padding-bottom: var(--section-padding-bottom);
 }
 
 .benefits-section-list {
@@ -227,7 +229,7 @@ ul {
 
 /* ---Our work Section--- */
 .our-work-sectoin {
-  padding-bottom: 94px;
+  padding-bottom: var(--section-padding-bottom);
 }
 
 .our-work-sectoin-title {
@@ -255,8 +257,8 @@ ul {
 
 /* ---Our team Section--- */
 .team-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: var(--section-padding-top);
+  padding-bottom: var(--section-padding-bottom);
 }
 
 .team-section-title {
@@ -371,8 +373,21 @@ ul {
 }
 
 /* -***-Portfolio page-***- */
+.projects {
+  padding-top: var(--section-padding-top);
+  padding-bottom: var(--section-padding-bottom);
+}
 
 /* ---Filters Section--- */
+.filters-list {
+  display: flex;
+  justify-content: center;
+}
+
+.filters-item + .filters-item {
+  margin-left: 8px;
+}
+
 .filters-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -383,6 +398,11 @@ ul {
   cursor: pointer;
 
   color: #212121;
+  background: #f5f4fa;
+
+  border-radius: 4px;
+  border: 0;
+  padding: 6px 22px;
 }
 
 .active-button {
@@ -399,6 +419,30 @@ ul {
 }
 
 /* ---Projects Section--- */
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+
+.project-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.project-preview {
+  display: block;
+  max-width: 100%;
+}
+
 .project-title {
   font-weight: 700;
   font-size: 18px;
@@ -406,10 +450,18 @@ ul {
   letter-spacing: 0.06em;
 
   color: var(--main-title-color);
+
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .project-category {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+
+  margin-top: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
