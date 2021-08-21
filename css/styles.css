@@ -231,8 +231,18 @@ ul {
   font-size: 36px;
   line-height: 1.67;
   letter-spacing: 0.03em;
+  text-align: center;
 
   color: var(--main-title-color);
+}
+
+.our-work-sectoin-list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.our-work-sectoin-item + .our-work-sectoin-item {
+  margin-left: 30px;
 }
 
 /* ---Our team Section--- */
