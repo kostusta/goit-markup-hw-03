@@ -74,6 +74,10 @@ ul {
 /* -***-Index page-***- */
 
 /* ---Header--- */
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
 /* Logo */
 .page-header .container {
   display: flex;
